@@ -8,3 +8,6 @@ def test_odd():
 
 def test_even_large_number():
     assert(evenorodd.even_or_odd(246) == "even")
+
+def test_zero():
+    assert(evenorodd.even_or_odd(0) == "even")
